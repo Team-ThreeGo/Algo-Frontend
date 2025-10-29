@@ -32,21 +32,41 @@
 ### 주요 기능
 
 <details>
-<summary> &nbsp; 회원가입 및 로그인 </summary>
+<summary> 👤 &nbsp; 회원가입 및 로그인 </summary>
 <div markdown=1>
 
 
 </details>
 
 <details>
-<summary> &nbsp; 알고리즘 개념 학습 </summary>
+<summary> 📚 &nbsp; 알고리즘 개념 학습 </summary>
 <div markdown=1>
 
+<details>
+  <summary> &nbsp; 알고리즘 로드맵 조회 </summary>
+  <p align="center">
+     <img src="https://github.com/user-attachments/assets/0cac4cd3-8f18-45d3-a4d3-c78ef9ae61e5" width="600">
+  </p>
+  </details>
+
+  <details>
+  <summary> &nbsp; 알고리즘 학습 게시물 조회 / 추천하기 / 대댓글 등록 수정 삭제 </summary>
+  <p align="center">
+     <img src="https://github.com/user-attachments/assets/76ba3141-a62b-4efe-9f60-b9876cab76e6" width="600">
+  </p>
+  </details>
+
+  <details>
+  <summary> &nbsp; 알고리즘 퀴즈 풀이 </summary>
+  <p align="center">
+     <img src="https://github.com/user-attachments/assets/ff921692-c108-4ef4-8375-45e633f3d242" width="600">
+  </p>
+  </details>
 
 </details>
 
 <details>
-<summary> &nbsp; 코딩 풀이 및 AI 피드백 제공 </summary>
+<summary> 🤖 &nbsp; 코딩 풀이 및 AI 피드백 제공 </summary>
 <div markdown=1>
 
 <details>
@@ -67,7 +87,7 @@
 
 
 <details>
-<summary> &nbsp; 기업별 정보 공유 </summary>
+<summary> 🏢 &nbsp; 기업별 정보 공유 </summary>
 <div markdown=1>
 
 <details>
@@ -102,7 +122,7 @@
 
 
 <details>
-<summary> &nbsp; 스터디 </summary>
+<summary> 📖 &nbsp; 스터디 </summary>
 <div markdown=1>
 
   <details>
@@ -157,7 +177,7 @@
 </details>
 
 <details>
-<summary> &nbsp; 마이페이지 </summary>
+<summary> ⚙️ &nbsp; 마이페이지 </summary>
 <div markdown=1>
 
   <details>
@@ -169,7 +189,7 @@
 </details>
 
 <details>
-<summary> &nbsp; 신고 및 추천 </summary>
+<summary> 🎯 &nbsp; 신고 및 추천 </summary>
 <div markdown=1>
 
 </details>
