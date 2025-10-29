@@ -253,11 +253,10 @@
 
 ---
 ## 4. 스토리 보드
-<details>
-<summary> 👤 &nbsp; 회원가입 및 로그인 </summary>
+
 <div markdown=1>
   <details>
-  <summary> &nbsp; 로그인 </summary>
+  <summary> 👤 &nbsp; 로그인 </summary>
   <p align="center">
     <img width="960" height="540" alt="algo-storyboard (5)" src="https://github.com/user-attachments/assets/b71b78b7-4b80-48d1-a56e-6fbcb537ce39" />
   </p>
@@ -265,35 +264,35 @@
 
 
   <details>
-  <summary> &nbsp; 알고리즘 퀴즈 </summary>
+  <summary> &nbsp; 📚 알고리즘 개념 학습 </summary>
   <p align="center">
     <img width="960" height="540" alt="algo-storyboard" src="https://github.com/user-attachments/assets/461bc61a-24d3-4b2e-a21b-74058b197c4f" />
   </p>
   </details>
 
   <details>
-  <summary> &nbsp; 기업정보공유 </summary>
+  <summary> &nbsp; 🏢 기업정보공유 </summary>
   <p align="center">
     <img width="960" height="540" alt="algo-storyboard (1)" src="https://github.com/user-attachments/assets/1172245a-69bc-41fb-bcc2-f10722976b32" />
   </p>
   </details>
 
   <details>
-  <summary> &nbsp; 코딩풀이 </summary>
+  <summary> &nbsp; 🤖 코딩풀이 </summary>
   <p align="center">
     <img width="960" height="540" alt="algo-storyboard (4)" src="https://github.com/user-attachments/assets/d159a589-3fb3-4459-bce3-ed050f99daa1" />
   </p>
   </details>
 
   <details>
-  <summary> &nbsp; 스터디모집 </summary>
+  <summary> &nbsp; 📖 스터디모집 </summary>
   <p align="center">
     <img width="960" height="540" alt="algo-storyboard (3)" src="https://github.com/user-attachments/assets/34a14ccb-b7f4-4c33-9b57-b1308c1fd79a" />
   </p>
   </details>
 
   <details>
-  <summary> &nbsp; 스터디 </summary>
+  <summary> &nbsp; 🎒 스터디메인</summary>
   <p align="center">
     <img width="960" height="540" alt="algo-storyboard (2)" src="https://github.com/user-attachments/assets/1cbaebdc-a192-4e7d-b648-36f2d74a757b" />
   </details>
