@@ -41,7 +41,6 @@
   </p>
   </details>
 
-
   <details>
   <summary> &nbsp; 로그인 </summary>
   <p align="center">
@@ -49,6 +48,9 @@
       width="600">
   </p>
   </details>
+</details>  
+
+<details>
 <summary> 📚 &nbsp; 알고리즘 개념 학습 </summary>
 <div markdown=1>
 
@@ -208,16 +210,6 @@
 
 ### 기술 스택
 
-| 구분 | 기술 스택 |
-|------|-----------|
-| **언어** | Java 17 |
-| **프레임워크 & 런타임 환경** | Spring Boot 3.5.6 · Spring Cloud Gateway 2025.0.0 · Spring Cloud Netflix Eureka Client 2025.0.0 |
-| **데이터 접근** | Spring Data JPA 3.5.6 · MyBatis 3.0.5 |
-| **빌드 & 의존성 관리** | Gradle 8.x |
-| **외부 서비스 연동** | AWS S3 SDK 2.20.x · Spring Cloud AWS 2.2.6.RELEASE · SMTP (Spring Boot Starter Mail) 3.5.6 |
-| **보안 & 인증** | Spring Security 3.5.6 · JJWT 0.11.5 |
-| **작업 툴 & 협업** | IntelliJ IDEA · ERD Cloud · DA# Modeler · Postman · Swagger · GitHub · Notion |
-| **테스트** | JUnit |
 
 ---
 
@@ -226,7 +218,8 @@
 ### WBS
 <details>
   <summary>WBS</summary>
-  
+  <img width="1249" height="668" alt="image" src="https://github.com/user-attachments/assets/69008d5d-75f9-49e9-a2b1-df680b0939fd" />
+
 </details>
 
 
@@ -246,10 +239,32 @@
   <h3>시스템</h3>
 
 </details>
+
 ---
 
 ## 3. 와이어 프레임
 
+[🎨 Figma 바로가기](https://www.figma.com/design/HoYo8IPsQSs3pyGbPfF2Kd/Algo?node-id=245-5&t=VxYrlWGrm6QGVVWW-1)
+
+<details>
+  <summary>와이어 프레임</summary>
+  <h3>메인 화면, 회원가입, 로그인</h3>
+<img width="1421" height="519" alt="image" src="https://github.com/user-attachments/assets/16e75fc7-cee7-4758-a41e-7dd87a326410" />
+  <h3>알고리즘 학습</h3>
+<img width="927" height="511" alt="image" src="https://github.com/user-attachments/assets/5496e146-9d34-455a-bf31-e06bcba51c79" />
+  <h3>코딩풀이</h3>
+<img width="1142" height="666" alt="image" src="https://github.com/user-attachments/assets/9b13982f-cc1f-401f-ae25-8db0d126e0b1" />
+  <h3>기업별 정보 공유</h3>
+<img width="1078" height="363" alt="image" src="https://github.com/user-attachments/assets/97ce8eeb-d27a-41c8-a2fc-9148b53cfaa8" />
+  <h3>스터디 모집</h3>
+<img width="897" height="748" alt="image" src="https://github.com/user-attachments/assets/3e795db5-7a92-4ed0-860b-79a521b15539" />
+  <h3>스터디 그룹</h3>
+<img width="1053" height="467" alt="image" src="https://github.com/user-attachments/assets/73fc31b5-7c12-494b-8c6e-b811de4b93da" />
+  <h3>마이페이지</h3>
+<img width="962" height="687" alt="image" src="https://github.com/user-attachments/assets/2b7fc1d1-308b-4dba-a8ad-ab4d07778982" />
+<h3>관리자페이지</h3>
+<img width="1245" height="669" alt="image" src="https://github.com/user-attachments/assets/046058f5-4b1d-4180-9a6f-f8a40d65bdde" />
+</details>
 
 ---
 ## 4. 스토리 보드
@@ -299,20 +314,7 @@
 
 ---
 
-## 5. 세부 기술 소개
-
-
----
-
-## 6. API 명세서 (Swagger)
-
-
-
-
-
----
-
-## 8. 동료 평가
+## 5. 동료 평가
 
 ### 강지륜
 
