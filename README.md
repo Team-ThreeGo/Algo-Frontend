@@ -49,6 +49,19 @@
 <summary> &nbsp; 코딩 풀이 및 AI 피드백 제공 </summary>
 <div markdown=1>
 
+<details>
+  <summary> &nbsp; 코딩 문제 목록 조회 </summary>
+  <p align="center">
+     <img src="https://github.com/user-attachments/assets/b43b6531-fcf9-42d0-9766-2a514f8d1952" width="600">
+  </p>
+  </details>
+
+  <details>
+  <summary> &nbsp; 풀이글 등록, 상세 조회 </summary>
+  <p align="center">
+     <img src="https://github.com/user-attachments/assets/0cdac0b1-c3b4-4427-b1bd-f7d54ed820de" width="600">
+  </p>
+  </details>
 
 </details>
 
@@ -57,8 +70,36 @@
 <summary> &nbsp; 기업별 정보 공유 </summary>
 <div markdown=1>
 
+<details>
+  <summary> &nbsp; 목록, 상세 조회 </summary>
+  <p align="center">
+     <img src="https://github.com/user-attachments/assets/d41f830d-a278-4895-8bef-f6a08e9a815a" width="600">
+  </p>
+  </details>
+
+<details>
+  <summary> &nbsp; 공유글 작성 </summary>
+  <p align="center">
+     <img src="https://github.com/user-attachments/assets/9ffcc400-2dbe-4e8f-ad94-2b52fbdbb7a7" width="600">
+  </p>
+  </details>
+
+<details>
+  <summary> &nbsp; 관리자 - 승인 </summary>
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/4793a72c-db58-474c-9c72-0af6eb86bb57" width="600">
+  </p>
+  </details>
+
+  <details>
+  <summary> &nbsp; 관리자 - 반려 </summary>
+  <p align="center">
+        <img src="https://github.com/user-attachments/assets/bc2edfe3-6323-456c-95b1-50f83dad43fa" width="600">
+  </p>
+  </details>
 
 </details>
+
 
 <details>
 <summary> &nbsp; 스터디 </summary>
