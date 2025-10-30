@@ -37,6 +37,7 @@
   <details>
   <summary> &nbsp; 회원가입 </summary>
   <p align="center">
+    <img src="https://github.com/user-attachments/assets/7aaf1e41-ebca-4962-9ea1-54ae26a3d015"     width="600">
 
   </p>
   </details>
