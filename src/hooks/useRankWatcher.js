@@ -17,14 +17,14 @@ export function useRankWatcher(memberId) {
       newRankName.value = info.rankName
       showRankUpPopup.value = true
       fireConfetti()
-      setTimeout(() => (showRankUpPopup.value = false), 4000)
+      setTimeout(() => (showRankUpPopup.value = false), 360000)
     }
     prevRank.value = info.rankName
   }
 
   onMounted(async () => {
     await checkRank()
-    intervalId = setInterval(checkRank, 10000) // 10초마다 폴링
+    intervalId = setInterval(checkRank, 3000) // 3초마다 폴링
   })
 
   onBeforeUnmount(() => {
