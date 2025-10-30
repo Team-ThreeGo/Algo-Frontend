@@ -6,12 +6,9 @@
         <span class="problem-name">{{ problemTitle }}</span>에 대한 코딩풀이
       </span>
     </div>
-    
+
     <!-- 뒤로가기 -->
-    <BackButton 
-      text="목록으로 돌아가기" 
-      :to="`/coding-problems/${problemId}/solutions/`" 
-    />
+    <BackButton text="목록으로 돌아가기" :to="`/coding-problems/${problemId}/solutions/`" />
 
     <!-- 게시물 헤더 -->
     <div class="post-header">
@@ -99,20 +96,12 @@
         <h3 class="sidebar-title">
           더 많은 <span class="highlight">{{ problemTitle }}</span> 풀이글 보기
         </h3>
-        
+
         <div class="solution-list" v-if="otherSolutions.length > 0">
-          <PostListItem
-            v-for="solution in otherSolutions"
-            :key="solution.postId"
-            :id="solution.postId"
-            :title="solution.postTitle"
-            :nickname="solution.nickname"
-            :rankName="solution.memberRank"
-            :createdAt="solution.createdAt"
-            :likeCount="solution.likeCount"
-            :commentCount="solution.commentCount"
-            @click="handleSolutionClick(solution.postId)"
-          />
+          <PostListItem v-for="solution in otherSolutions" :key="solution.postId" :id="solution.postId"
+            :title="solution.postTitle" :nickname="solution.nickname" :rankName="solution.memberRank"
+            :createdAt="solution.createdAt" :likeCount="solution.likeCount" :commentCount="solution.commentCount"
+            @click="handleSolutionClick(solution.postId)" />
         </div>
         <p v-else class="no-solutions-text">다른 풀이가 없습니다.</p>
       </div>
@@ -120,13 +109,7 @@
       <!-- AI 피드백 요청 카드 -->
       <div class="ai-request-card">
         <div class="koala-background"></div>
-        <CustomButton
-          variant="primary"
-          height="md"
-          width="100%"
-          class="action-button"
-          @click="handleWriteSolution"
-        >
+        <CustomButton variant="primary" height="md" width="100%" class="action-button" @click="handleWriteSolution">
           풀이글 작성하러 가기
         </CustomButton>
       </div>
@@ -134,18 +117,10 @@
 
     <!-- 댓글 섹션 -->
     <div class="comment-wrapper">
-      <Comment
-        :comments="comments"
-        :currentUser="currentUser"
-        @submit-comment="handleSubmitComment"
-        @submit-reply="handleSubmitReply"
-        @edit-comment="handleEditComment"
-        @delete-comment="handleDeleteComment"
-        @edit-reply="handleEditReply"
-        @delete-reply="handleDeleteReply"
-        @report-comment="handleReportComment"
-        @report-reply="handleReportReply"
-      />
+      <Comment :comments="comments" :currentUser="currentUser" @submit-comment="handleSubmitComment"
+        @submit-reply="handleSubmitReply" @edit-comment="handleEditComment" @delete-comment="handleDeleteComment"
+        @edit-reply="handleEditReply" @delete-reply="handleDeleteReply" @report-comment="handleReportComment"
+        @report-reply="handleReportReply" />
     </div>
   </div>
 </template>
@@ -161,6 +136,7 @@ import MiniProfile from '@/components/common/MiniProfile.vue'
 import CustomButton from '@/components/common/CustomButton.vue'
 import PostListItem from '@/components/common/PostListItem.vue'
 import Comment from '@/components/common/Comment.vue'
+import { param } from 'jquery'
 
 // 라우터
 const route = useRoute()
@@ -201,12 +177,12 @@ const aiBad = computed(() => {
 const fetchPostDetail = async () => {
   try {
     const name = localStorage.getItem('nickname');
-        const rank = localStorage.getItem('rank');
-        
-      currentUser.value = {
-            nickname: name,
-            rankName: rank
-        };
+    const rank = localStorage.getItem('rank');
+
+    currentUser.value = {
+      nickname: name,
+      rankName: rank
+    };
     const { data } = await coreApi.get(`/coding/posts/${solutionId.value}`)
     postDetail.value = data
     if (data.aiBigO) {
@@ -230,7 +206,7 @@ const startAiPolling = () => {
         isAiLoading.value = false
         clearInterval(interval)
       }
-    } catch {}
+    } catch { }
   }, 5000)
 
   setTimeout(() => clearInterval(interval), 120000)
@@ -254,9 +230,23 @@ const handleWriteSolution = () => {
 // API: 댓글 조회
 const fetchComments = async () => {
   try {
-        
+
     const { data } = await coreApi.get(`/coding/posts/${solutionId.value}/comments`)
-    comments.value = (data)
+
+    console.log(data);
+    const normalize = (nodes = []) =>
+      nodes.map((n) => ({
+        id: n.commentId,
+        parentCommentId: n.parentId,
+        memberId: n.memberId,
+        memberNickname: n.nickname,
+        memberRank: n.memberRank,
+        content: n.content,
+        createdAt: n.createdAt,
+        visibility: n.visibility,
+        childComments: n.children ? normalize(n.children) : [],
+      }));
+    comments.value = normalize(data);
   } catch (err) {
     console.error('댓글 조회 실패:', err)
   }
@@ -301,10 +291,11 @@ const handleSubmitComment = async (data) => {
 }
 
 const handleSubmitReply = async (data) => {
-  await coreApi.post(`/coding/posts/${solutionId.value}/comments`, {
-    content: data.content,
-    parentId: data.commentId,
-  })
+  await coreApi.post(
+    `/coding/posts/${solutionId.value}/comments`,
+    { content: data.content },
+    { params: { parentId: data.commentId } }
+  )
   await fetchComments()
   await fetchPostDetail()
 }
@@ -320,7 +311,11 @@ const handleDeleteComment = async (commentId) => {
   await fetchPostDetail()
 }
 
-const handleEditReply = handleEditComment
+const handleEditReply = async (data) => {
+  console.log(data);
+  await coreApi.put(`/coding/comments/${data.replyId}`, { content: data.content })
+  await fetchComments()
+}
 
 const handleDeleteReply = async (data) => {
   await coreApi.delete(`/coding/comments/${data.replyId}`)
@@ -355,7 +350,6 @@ onMounted(async () => {
 })
 </script>
 
-
 <style scoped>
 .solution-detail-page {
   max-width: 1400px;
@@ -368,7 +362,7 @@ onMounted(async () => {
   position: relative;
 }
 
-.solution-detail-page > *:not(.right-sidebar) {
+.solution-detail-page>*:not(.right-sidebar) {
   grid-column: 1;
 }
 
