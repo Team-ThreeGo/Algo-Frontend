@@ -218,6 +218,12 @@
 <summary> 🎯 &nbsp; 신고 및 추천 </summary>
 <div markdown=1>
 
+<details>
+  <summary> &nbsp; 댓글 신고 </summary>
+  <p align="center">
+      <img src="https://github.com/user-attachments/assets/cb8d14ef-2278-47bb-b85c-176a8004742f" width="600">
+  </p>
+  </details>
 </details>
 
 <br>
