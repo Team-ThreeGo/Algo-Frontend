@@ -14,33 +14,151 @@
 | [**강지륜**](https://github.com/rosieisor) | [**김민지**](https://github.com/ghi512) | [**배태용**](https://github.com/HoodRyan) | [**정유진**](https://github.com/YujinJeong1006) | [**허창훈**](https://github.com/huni2) |
 
 
-## 목차
-
-
-
 ---
 
 
 ## 1. 프로젝트 소개
 
+> **몰라도 된다, 알고만 있으면 되니까!**
+
+알고리즘 학습부터 스터디, 실전 정보 공유까지  
+함께 성장하며 **즉각적인 피드백**을 받을 수 있는 **올인원 플랫폼**
+
+### 🐨 프로젝트 개요
+
+**ALGO**는 개발 취업 준비생을 위한 통합 학습 플랫폼으로,
+개인별 학습부터 협업 스터디, 기업별 실전 후기까지 한곳에서 관리할 수 있도록 설계되었습니다.  
+사용자는 AI 피드백을 통해 자신의 코드 품질을 향상시키고,  
+실제 기업의 코딩 테스트와 면접 정보를 인증 기반으로 신뢰성 있게 공유할 수 있습니다.
+
+
 ### 기술 요약
-### 🌿 FrontEnd
+#### 🌿 FrontEnd
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Element](https://img.shields.io/badge/element-0DBD8B.svg?style=for-the-badge&logo=element&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-### 🗝️ Backend
+#### 🗝️ Backend
 <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/> ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/> <img src="https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=databricks&logoColor=white"/> ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white)
 
-### 🗂️ DB
+#### 🗂️ DB
 <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/> ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-### 💾 Server
+#### 💾 Server
 <img src="https://img.shields.io/badge/Spring%20Cloud%20Gateway-339933?style=for-the-badge&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Eureka-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
 
-### 🔧 Tools
+#### 🔧 Tools
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 
-### 프로젝트 배경
 
+---
+
+## 2. 설계 문서
+
+### WBS
+<details>
+  <summary>WBS</summary>
+  <img width="1249" height="668" alt="image" src="https://github.com/user-attachments/assets/69008d5d-75f9-49e9-a2b1-df680b0939fd" />
+
+</details>
+
+
+### 요구사항 명세서
+<details>
+  <summary>요구사항 명세서</summary>
+  <h3>회원 정보</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/4d2ab975-976a-41f7-ba9a-98b45cdeeacc" />
+
+  <h3>알고리즘 학습</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/d1f09441-65bd-4add-8c36-62b8b1c88f76" />
+
+  <h3>기업별 정보 공유</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/4046b165-bf7f-4785-9d59-048b6b2f4fcc" />
+
+  <h3>스터디</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/4feb055e-d148-4dd0-b2d9-3c7f577f45ee" />
+
+  <h3>코딩풀이</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/50027823-c583-47f6-9ec0-6a20a11d04be" />
+
+  <h3>시스템</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/81e31fd9-8878-4fa9-92d8-f31415f6a17e" />
+
+</details>
+
+---
+
+## 3. 와이어 프레임
+
+[🎨 Figma 바로가기](https://www.figma.com/design/HoYo8IPsQSs3pyGbPfF2Kd/Algo?node-id=245-5&t=VxYrlWGrm6QGVVWW-1)
+
+<details>
+  <summary>와이어 프레임</summary>
+  <h3>메인 화면, 회원가입, 로그인</h3>
+<img width="1421" height="519" alt="image" src="https://github.com/user-attachments/assets/16e75fc7-cee7-4758-a41e-7dd87a326410" />
+  <h3>알고리즘 학습</h3>
+<img width="927" height="511" alt="image" src="https://github.com/user-attachments/assets/5496e146-9d34-455a-bf31-e06bcba51c79" />
+  <h3>코딩풀이</h3>
+<img width="1142" height="666" alt="image" src="https://github.com/user-attachments/assets/9b13982f-cc1f-401f-ae25-8db0d126e0b1" />
+  <h3>기업별 정보 공유</h3>
+<img width="1078" height="363" alt="image" src="https://github.com/user-attachments/assets/97ce8eeb-d27a-41c8-a2fc-9148b53cfaa8" />
+  <h3>스터디 모집</h3>
+<img width="897" height="748" alt="image" src="https://github.com/user-attachments/assets/3e795db5-7a92-4ed0-860b-79a521b15539" />
+  <h3>스터디 그룹</h3>
+<img width="1053" height="467" alt="image" src="https://github.com/user-attachments/assets/73fc31b5-7c12-494b-8c6e-b811de4b93da" />
+  <h3>마이페이지</h3>
+<img width="962" height="687" alt="image" src="https://github.com/user-attachments/assets/2b7fc1d1-308b-4dba-a8ad-ab4d07778982" />
+<h3>관리자페이지</h3>
+<img width="1245" height="669" alt="image" src="https://github.com/user-attachments/assets/046058f5-4b1d-4180-9a6f-f8a40d65bdde" />
+</details>
+
+---
+## 4. 스토리 보드
+
+<div markdown=1>
+  <details>
+  <summary> 👤 &nbsp; 로그인 </summary>
+  <p align="center">
+    <img width="960" height="540" alt="algo-storyboard (5)" src="https://github.com/user-attachments/assets/b71b78b7-4b80-48d1-a56e-6fbcb537ce39" />
+  </p>
+  </details>
+
+
+  <details>
+  <summary> &nbsp; 📚 알고리즘 개념 학습 </summary>
+  <p align="center">
+    <img width="960" height="540" alt="algo-storyboard" src="https://github.com/user-attachments/assets/461bc61a-24d3-4b2e-a21b-74058b197c4f" />
+  </p>
+  </details>
+
+  <details>
+  <summary> &nbsp; 🏢 기업정보공유 </summary>
+  <p align="center">
+    <img width="960" height="540" alt="algo-storyboard (1)" src="https://github.com/user-attachments/assets/1172245a-69bc-41fb-bcc2-f10722976b32" />
+  </p>
+  </details>
+
+  <details>
+  <summary> &nbsp; 🤖 코딩풀이 </summary>
+  <p align="center">
+    <img width="960" height="540" alt="algo-storyboard (4)" src="https://github.com/user-attachments/assets/d159a589-3fb3-4459-bce3-ed050f99daa1" />
+  </p>
+  </details>
+
+  <details>
+  <summary> &nbsp; 📖 스터디모집 </summary>
+  <p align="center">
+    <img width="960" height="540" alt="algo-storyboard (3)" src="https://github.com/user-attachments/assets/34a14ccb-b7f4-4c33-9b57-b1308c1fd79a" />
+  </p>
+  </details>
+
+  <details>
+  <summary> &nbsp; 🎒 스터디메인</summary>
+  <p align="center">
+    <img width="960" height="540" alt="algo-storyboard (2)" src="https://github.com/user-attachments/assets/1cbaebdc-a192-4e7d-b648-36f2d74a757b" />
+  </details>
+
+---
+
+## 5. 테스트케이스
 
 ### 주요 기능
 
@@ -228,119 +346,9 @@
 
 <br>
 
-### 기술 스택
-
-
 ---
 
-## 2. 설계 문서
-
-### WBS
-<details>
-  <summary>WBS</summary>
-  <img width="1249" height="668" alt="image" src="https://github.com/user-attachments/assets/69008d5d-75f9-49e9-a2b1-df680b0939fd" />
-
-</details>
-
-
-### 요구사항 명세서
-<details>
-  <summary>요구사항 명세서</summary>
-  <h3>회원 정보</h3>
-  <img width="1547" src="https://github.com/user-attachments/assets/4d2ab975-976a-41f7-ba9a-98b45cdeeacc" />
-
-  <h3>알고리즘 학습</h3>
-  <img width="1547" src="https://github.com/user-attachments/assets/d1f09441-65bd-4add-8c36-62b8b1c88f76" />
-
-  <h3>기업별 정보 공유</h3>
-  <img width="1547" src="https://github.com/user-attachments/assets/4046b165-bf7f-4785-9d59-048b6b2f4fcc" />
-
-  <h3>스터디</h3>
-  <img width="1547" src="https://github.com/user-attachments/assets/4feb055e-d148-4dd0-b2d9-3c7f577f45ee" />
-
-  <h3>코딩풀이</h3>
-  <img width="1547" src="https://github.com/user-attachments/assets/50027823-c583-47f6-9ec0-6a20a11d04be" />
-
-  <h3>시스템</h3>
-  <img width="1547" src="https://github.com/user-attachments/assets/81e31fd9-8878-4fa9-92d8-f31415f6a17e" />
-
-</details>
-
----
-
-## 3. 와이어 프레임
-
-[🎨 Figma 바로가기](https://www.figma.com/design/HoYo8IPsQSs3pyGbPfF2Kd/Algo?node-id=245-5&t=VxYrlWGrm6QGVVWW-1)
-
-<details>
-  <summary>와이어 프레임</summary>
-  <h3>메인 화면, 회원가입, 로그인</h3>
-<img width="1421" height="519" alt="image" src="https://github.com/user-attachments/assets/16e75fc7-cee7-4758-a41e-7dd87a326410" />
-  <h3>알고리즘 학습</h3>
-<img width="927" height="511" alt="image" src="https://github.com/user-attachments/assets/5496e146-9d34-455a-bf31-e06bcba51c79" />
-  <h3>코딩풀이</h3>
-<img width="1142" height="666" alt="image" src="https://github.com/user-attachments/assets/9b13982f-cc1f-401f-ae25-8db0d126e0b1" />
-  <h3>기업별 정보 공유</h3>
-<img width="1078" height="363" alt="image" src="https://github.com/user-attachments/assets/97ce8eeb-d27a-41c8-a2fc-9148b53cfaa8" />
-  <h3>스터디 모집</h3>
-<img width="897" height="748" alt="image" src="https://github.com/user-attachments/assets/3e795db5-7a92-4ed0-860b-79a521b15539" />
-  <h3>스터디 그룹</h3>
-<img width="1053" height="467" alt="image" src="https://github.com/user-attachments/assets/73fc31b5-7c12-494b-8c6e-b811de4b93da" />
-  <h3>마이페이지</h3>
-<img width="962" height="687" alt="image" src="https://github.com/user-attachments/assets/2b7fc1d1-308b-4dba-a8ad-ab4d07778982" />
-<h3>관리자페이지</h3>
-<img width="1245" height="669" alt="image" src="https://github.com/user-attachments/assets/046058f5-4b1d-4180-9a6f-f8a40d65bdde" />
-</details>
-
----
-## 4. 스토리 보드
-
-<div markdown=1>
-  <details>
-  <summary> 👤 &nbsp; 로그인 </summary>
-  <p align="center">
-    <img width="960" height="540" alt="algo-storyboard (5)" src="https://github.com/user-attachments/assets/b71b78b7-4b80-48d1-a56e-6fbcb537ce39" />
-  </p>
-  </details>
-
-
-  <details>
-  <summary> &nbsp; 📚 알고리즘 개념 학습 </summary>
-  <p align="center">
-    <img width="960" height="540" alt="algo-storyboard" src="https://github.com/user-attachments/assets/461bc61a-24d3-4b2e-a21b-74058b197c4f" />
-  </p>
-  </details>
-
-  <details>
-  <summary> &nbsp; 🏢 기업정보공유 </summary>
-  <p align="center">
-    <img width="960" height="540" alt="algo-storyboard (1)" src="https://github.com/user-attachments/assets/1172245a-69bc-41fb-bcc2-f10722976b32" />
-  </p>
-  </details>
-
-  <details>
-  <summary> &nbsp; 🤖 코딩풀이 </summary>
-  <p align="center">
-    <img width="960" height="540" alt="algo-storyboard (4)" src="https://github.com/user-attachments/assets/d159a589-3fb3-4459-bce3-ed050f99daa1" />
-  </p>
-  </details>
-
-  <details>
-  <summary> &nbsp; 📖 스터디모집 </summary>
-  <p align="center">
-    <img width="960" height="540" alt="algo-storyboard (3)" src="https://github.com/user-attachments/assets/34a14ccb-b7f4-4c33-9b57-b1308c1fd79a" />
-  </p>
-  </details>
-
-  <details>
-  <summary> &nbsp; 🎒 스터디메인</summary>
-  <p align="center">
-    <img width="960" height="540" alt="algo-storyboard (2)" src="https://github.com/user-attachments/assets/1cbaebdc-a192-4e7d-b648-36f2d74a757b" />
-  </details>
-
----
-
-## 5. 동료 평가
+## 6. 동료 평가
 
 ### 강지륜
 
