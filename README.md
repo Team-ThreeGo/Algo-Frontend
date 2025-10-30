@@ -228,16 +228,22 @@
 <details>
   <summary>요구사항 명세서</summary>
   <h3>회원 정보</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/4d2ab975-976a-41f7-ba9a-98b45cdeeacc" />
 
   <h3>알고리즘 학습</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/d1f09441-65bd-4add-8c36-62b8b1c88f76" />
 
   <h3>기업별 정보 공유</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/4046b165-bf7f-4785-9d59-048b6b2f4fcc" />
 
   <h3>스터디</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/4feb055e-d148-4dd0-b2d9-3c7f577f45ee" />
 
   <h3>코딩풀이</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/50027823-c583-47f6-9ec0-6a20a11d04be" />
 
   <h3>시스템</h3>
+  <img width="1547" src="https://github.com/user-attachments/assets/81e31fd9-8878-4fa9-92d8-f31415f6a17e" />
 
 </details>
 
