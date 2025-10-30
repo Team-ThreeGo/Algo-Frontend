@@ -9,12 +9,13 @@
 
 ## ThreeGo 팀원 소개
 
-| <img src="https://prs.ohousecdn.com/apne2/content/community/v1-373521229070400.jpg?w=480&h=480&c=c&q=80&webp=1" width="200"/> | <img width="200" src="https://github.com/user-attachments/assets/5c088fb6-46f8-40fc-b746-5884800368c5" /> | <img src="https://item.kakaocdn.net/do/a7fd7c0630f8aea8419a565fb2773bbc8f324a0b9c48f77dbce3a43bd11ce785" width="200"/> | <img src="https://cdn.imweb.me/thumbnail/20250911/f5a190ad907b7.png" width="200"/> | <img src="https://i.namu.wiki/i/GQMqb8jtiqpCo6_US7jmWDO30KfPB2MMvbdURVub61Rs6ALKqbG-nUATj-wNk7bXXWIDjiLHJxWYkTELUgybkA.webp" width="200"/> |
+| <img src="https://github.com/user-attachments/assets/ca277ad7-5ab4-4943-938a-2acbd53bd488" width="200"/> | <img width="200" src="https://github.com/user-attachments/assets/ef137c39-3fb0-4c1f-b2de-68e0677cbc8b" /> | <img src="https://github.com/user-attachments/assets/3f5f789b-0782-41b2-962b-3b649a94e888" width="200"/> | <img src="https://github.com/user-attachments/assets/07b515ec-f3eb-4a65-adf9-86032de3ed54" width="200"/> | <img src="https://github.com/user-attachments/assets/58317437-8df2-42cb-9407-e807f21a081a" width="200"/> |
 |:----------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------:|
 | [**강지륜**](https://github.com/rosieisor) | [**김민지**](https://github.com/ghi512) | [**배태용**](https://github.com/HoodRyan) | [**정유진**](https://github.com/YujinJeong1006) | [**허창훈**](https://github.com/huni2) |
 
-
 ---
+
+
 
 
 ## 1. 프로젝트 소개
